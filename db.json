@@ -15,6 +15,22 @@
       "email": "GrandInfo@gmail.com",
       "services": "contenental",
       "mobile": 797989896768
+    },
+    {
+      "id": 5,
+      "name": "JW Marriot",
+      "address": "SB road",
+      "email": "JW@gmail.com",
+      "services": "Italian, Indian, Chinese",
+      "mobile": 7854963210
+    },
+    {
+      "id": 6,
+      "name": "Pimlico",
+      "address": "kothrud",
+      "email": "pimlico@gmail.com",
+      "services": "cafe",
+      "mobile": 7412589630
     }
   ],
   "signup": [
@@ -31,6 +47,13 @@
       "mobile": 3164631649,
       "password": "Admin@123",
       "id": 2
+    },
+    {
+      "name": "tanvi",
+      "email": "tanvi@gmail.com",
+      "mobile": 7854963210,
+      "password": "tanvi123",
+      "id": 3
     }
   ],
   "comments": [],

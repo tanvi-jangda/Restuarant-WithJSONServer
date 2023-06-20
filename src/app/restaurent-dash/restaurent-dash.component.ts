@@ -33,8 +33,6 @@ export class RestaurentDashComponent implements OnInit {
   clickAddResto()
   {
     this.formValue.reset();
-    this.showAdd = true;
-    this.showBtn = true;
   }
  
   addRestaurent()
@@ -47,10 +45,10 @@ export class RestaurentDashComponent implements OnInit {
 
     this.api.postRestaurent(this.restaurentModelObj).subscribe(res => {
       console.log(res);
-      alert("Restaurent Added Successfully");
+      alert("Restaurant Added Successfully");
       this.formValue.reset();
 
-      let ref= document.getElementById('close');
+      let ref= document.getElementById('clear');
       ref?.click();
 
       this.getAllData();
